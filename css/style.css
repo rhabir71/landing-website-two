@@ -27,6 +27,7 @@ top-palyers start here
 } 
 hr{
     border: 1px solid #D1D1D1;
+    padding: ;
 }
 .section-title{
     color: #562EFF;
@@ -58,6 +59,7 @@ Top Blog start here
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 26px;
+    column-gap: 20px;
 }
 .blog{
     display: flex;
@@ -77,4 +79,49 @@ Top Blog start here
 }
 .blog-author a{
     text-decoration: none;
+}
+/* =================
+courses styel start here
+=====================  */
+.courses{
+    display: flex;
+    column-gap: 25px;
+}
+.cours{    
+    padding: 10px;
+    box-shadow: 0px 0px 10px 3px #f8f8f8;
+    border-radius: 5px;
+}
+.courses-banner img{
+    width: 225px;
+    height: 104px;
+}
+.cours-title{
+    font-size: 20px;
+}
+.cours-author{
+    color: #ED6B4F;
+    font-size: 14px;
+}
+.cours-info{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.cours-info p{
+    color: #AEAEAE;
+}
+.fa-star.color-full{
+    color: #FFC014;
+    font-size: 12px;
+}
+.fa-star.color-null{
+    color: #AEAEAE;
+    font-size: 12px;
+}
+.cours-duration{
+    background-color:#FEE5DF;
+    color: #ED6B4F;
+    padding: 5px 15px;
+    border-radius: 30px;
 }
