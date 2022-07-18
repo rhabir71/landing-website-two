@@ -1,0 +1,52 @@
+/*=============
+ poppins google fonts
+================ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F3F1FF;
+    font-family: 'Poppins', sans-serif;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* =================
+top-palyers start here   
+=====================*/
+ .container{
+    background-color: #fff;
+    width: 875px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+} 
+hr{
+    border: 1px solid #D1D1D1;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+
+}
+.palyer{
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+.palyer img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    font-size: 18px;
+}
